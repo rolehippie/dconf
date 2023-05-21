@@ -67,7 +67,7 @@
   when: item.1.state | default('present') == 'present'
   copy:
     content: "{{ item.1.config }}"
-    dest: "/etc/dconf/db/gdm.d/{{ item.1.name }}"
+    dest: "/etc/dconf/db/{{ item.0.name }}.d/{{ item.1.name }}"
     owner: root
     group: root
     mode: u=rw,g=r,o=r
@@ -82,7 +82,7 @@
     label: "{{ item.0.name }}:{{ item.1.name }}"
   when: item.1.state | default('present') == 'absent'
   file:
-    path: "/etc/dconf/db/gdm.d/{{ item.1.name }}"
+    path: "/etc/dconf/db/{{ item.0.name }}.d/{{ item.1.name }}"
     state: absent
   tags:
     - dconf

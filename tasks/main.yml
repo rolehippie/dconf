@@ -1,5 +1,14 @@
 # Standards: 1.2
 ---
+- name: Install required packages
+  loop:
+    - dconf-service
+  package:
+    name: "{{ item }}"
+    state: present
+  tags:
+    - dconf
+
 - name: Write profile config
   notify:
     - Update dconf

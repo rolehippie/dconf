@@ -2,7 +2,7 @@
 ---
 - name: Install required packages
   loop:
-    - dconf-service
+    - ibus
   package:
     name: "{{ item }}"
     state: present

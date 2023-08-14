@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/rolehippie/dconf/compare/v1.0.1...v1.1.0) (2023-08-14)
+
+
+### Features
+
+* install required dconf packages ([8bccc75](https://github.com/rolehippie/dconf/commit/8bccc756382d14f70b6afb35c4193222da9ecbf6))
+
 ## [1.0.1](https://github.com/rolehippie/dconf/compare/v1.0.0...v1.0.1) (2023-05-21)
 
 

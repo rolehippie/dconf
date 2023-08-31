@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/rolehippie/dconf/compare/v1.1.0...v1.2.0) (2023-08-31)
+
+
+### Features
+
+* install required ibus package ([cace5f6](https://github.com/rolehippie/dconf/commit/cace5f608ae73e1ea760e710115f73bb90ee281d))
+
 ## [1.1.0](https://github.com/rolehippie/dconf/compare/v1.0.1...v1.1.0) (2023-08-14)
 
 
